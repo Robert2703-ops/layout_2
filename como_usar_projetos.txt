@@ -1,0 +1,15 @@
+-Primeiro crie uma base de dados, com o nome de 'upper', query "create database upper;",
+caso seu usuario root tenha senha, voce tera que coloca-la no arquivo ".env", 
+na liha 14;
+
+-De o comando 'php artisan migrate', para criar as tabela necessrias para o funcionamento do sistema;
+
+-Depois de criar as tabelas, rode o comando no banco de dados:
+"insert into products (name, description, label, price) values ('gtx 1660 super', 'placa de video', 'pc e componentes', 4000);",
+esse e o produto que sera retornado para o layout_1;
+
+-Rode o projeto, com o comando 'php artisan serve';
+
+-Deixe o servidor rodando na porta 8000;
+
+-Nao desligar o servidor ao testar o layout_1, pois ele precisara consumir um endpoint no layout_2.

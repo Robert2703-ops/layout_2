@@ -1,0 +1,9 @@
+div.entries {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+}
